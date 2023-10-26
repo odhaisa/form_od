@@ -13,7 +13,7 @@
         </div>
         <div class="form">
             <div class="txt-form">
-                <h3>FORMULÁRIO</h3>
+                <h3>formulário</h3>
             </div>
             <div class="titulo-form">
                 <h1>Venda fácil seu carro!</h1>
@@ -21,61 +21,106 @@
             </div>
             <form action="register.php" method="GET">
                 <div class="container-title">
-                    <label>Titulo do anúncio:</label>
+                    <label for="title">Título do anúncio: <span class="required-field">*</span></label>
                     <input type="text" placeholder="um titulo para anunciar seu carro">
                 </div>
                 
                 <form action="register.php" method="GET">
                     <div class="container-title">
-                        <label>Preço:</label>
+                        <label>Preço: <span class="required-field">*</label>
                         <input type="text" placeholder="Defina o preço">
                     </div>
 
                     <form action="register.php" method="GET">
                         <div class="container-title">
                             <div class="container-flex-title">
-                                <label for="coment">Descriçao</label>
-                                <textarea name="coment" ></textarea>
+                                <label for="coment">Descrição <span class="required-field">*</label>
+                                <textarea name="coment" placeholder="Aqui você coloca os detalhes do produto, por exemplo, se ele tem algum arranhão"></textarea>
                             </div>
                         </div>
                         <form action="register.php" method="GET">
                             <div class="container-title">
-                                <label>Marca:</label>
+                                <label>Marca: <span class="required-field">*</label>
                                 <input type="text" placeholder="Defina o preço">
                             </div>
                         
                             <form action="register.php" method="GET">
                                 <div class="container-title">
-                                    <label>Modelo:</label>
+                                    <label>Modelo: <span class="required-field">*</label>
                                     <input type="text" placeholder="Defina o preço">
                                 </div>
 
                                 <form action="register.php" method="GET">
                                     <div class="container-title">
-                                        <label>Kilometragem:</label>
+                                        <label>Kilometragem: <span class="required-field">*</label>
                                         <input type="text" placeholder="Defina o preço">
                                     </div> 
                                     
                                     <form action="register.php" method="GET">
                                         <div class="container-title">
-                                            <label>Data da compra:</label>
+                                            <label>Data da compra: <span class="required-field">*</label>
                                             <input type="date" placeholder="Defina o preço">
                                         </div> 
 
-                                        <div>
-                                            <label for="tipo_cambio">Tipo de cambio: </label>
-                                            <div class="cambio">
-                                                <input type="radio" value="Manual" name="tipo_cambio">
+                                        <div class="cambio">
+                                            
+                                            <p>Tipo de cambio: <span class="required-field">*</span></p>
+                                            <div>
+                                                <input type="radio" id="Manual" name="tipo_cambio">
                                                 <label for="manual">Manual</label>
-                                            </div>
-
-                                            <div class="cambio">
-                                                <input type="radio" value="Automático" name="tipo_cambio">
+                                                <input type="radio" id="Automático" name="tipo_cambio">
                                                 <label for="automatico">Automático</label>
                                             </div>
+                                            <br> <br>
+                                        </div> 
+                                        <div class="container-opcionais">
+                                            <div class="opcionais1">
+                                                <label for="optionals">Opcionais</label>
+                                                <div class="radio">
+                                                    <input type="checkbox" name="optionals[]" value="big_tires">
+                                                    <label for="big_tires">Pneus Grandes</label>
+                                                </div>
+                                                <div class="radio">
+                                                    <input type="checkbox" name="optionals[]" value="big_tires">
+                                                    <label for="big_tires">Pneus Grandes</label>
+                                                </div>
+                                                <div class="radio">
+                                                    <input type="checkbox" name="optionals[]" value="big_tires">
+                                                    <label for="big_tires">Pneus Grandes</label>
+                                                </div>
+                                                <div class="radio">
+                                                    <input type="checkbox" name="optionals[]" value="big_tires">
+                                                    <label for="big_tires">Pneus Grandes</label>
+                                                </div>
                                         </div>
-
-
+                                        <div class="opcionais2">
+                                            <div class="radio">
+                                                <input type="checkbox" name="optionals[]" value="big_tires">
+                                                <label for="big_tires">Pneus Grandes</label>
+                                            </div>
+                                            <div class="radio">
+                                                <input type="checkbox" name="optionals[]" value="big_tires">
+                                                <label for="big_tires">Pneus Grandes</label>
+                                            </div>
+                                            <div class="radio">
+                                                <input type="checkbox" name="optionals[]" value="big_tires">
+                                                <label for="big_tires">Pneus Grandes</label>
+                                            </div>
+                                            <div class="radio">
+                                                <input type="checkbox" name="optionals[]" value="big_tires">
+                                                <label for="big_tires">Pneus Grandes</label>
+                                            </div>
+                                        </div>
+                                        </div>
+                                        
+                                                
+                                        
+                                    </form>
+                                </form>
+                            </form>
+                        </form>
+                    </form>
+                </form>
             </form>
         </div>
     </div>
