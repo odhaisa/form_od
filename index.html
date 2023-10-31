@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="shortcut icon" href="" type="image/x-icon">
     <title>Venda seu veículo</title>
 </head>
 <body>
@@ -19,111 +20,51 @@
                 <h1>Venda fácil seu carro!</h1>
                 <h4>Descreva as características e marque as opções que ele possui:</h4>
             </div>
-            <form action="register.php" method="GET">
+            <form action="method.php" method="GET">
                 <div class="container-title">
                     <label for="title">Título do anúncio: <span class="required-field">*</span></label>
                     <input type="text" placeholder="um titulo para anunciar seu carro">
                 </div>
                 
-                <form action="register.php" method="GET">
+               
                     <div class="container-title">
                         <label>Preço: <span class="required-field">*</label>
                         <input type="text" placeholder="Defina o preço">
                     </div>
 
-                    <form action="register.php" method="GET">
+                   
                         <div class="container-title">
                             <div class="container-flex-title">
                                 <label for="coment">Descrição <span class="required-field">*</label>
                                 <textarea name="coment" placeholder="Aqui você coloca os detalhes do produto, por exemplo, se ele tem algum arranhão"></textarea>
                             </div>
                         </div>
-                        <form action="register.php" method="GET">
+                       
                             <div class="container-title">
                                 <label>Marca: <span class="required-field">*</label>
                                 <input type="text" placeholder="Defina o preço">
                             </div>
                         
-                            <form action="register.php" method="GET">
+                           
                                 <div class="container-title">
                                     <label>Modelo: <span class="required-field">*</label>
                                     <input type="text" placeholder="Defina o preço">
                                 </div>
 
-                                <form action="register.php" method="GET">
+                               
                                     <div class="container-title">
                                         <label>Kilometragem: <span class="required-field">*</label>
                                         <input type="text" placeholder="Defina o preço">
                                     </div> 
-                                    
-                                    <form action="register.php" method="GET">
-                                        <div class="container-title">
-                                            <label>Data da compra: <span class="required-field">*</label>
-                                            <input type="date" placeholder="Defina o preço">
-                                        </div> 
-
-                                        <div class="cambio">
-                                            
-                                            <p>Tipo de cambio: <span class="required-field">*</span></p>
-                                            <div>
-                                                <input type="radio" id="Manual" name="tipo_cambio">
-                                                <label for="manual">Manual</label>
-                                                <input type="radio" id="Automático" name="tipo_cambio">
-                                                <label for="automatico">Automático</label>
-                                            </div>
-                                            <br> <br>
-                                        </div> 
-                                        <div class="container-opcionais">
-                                            <div class="opcionais1">
-                                                <label for="optionals">Opcionais</label>
-                                                <div class="radio">
-                                                    <input type="checkbox" name="optionals[]" value="big_tires">
-                                                    <label for="big_tires">Pneus Grandes</label>
-                                                </div>
-                                                <div class="radio">
-                                                    <input type="checkbox" name="optionals[]" value="big_tires">
-                                                    <label for="big_tires">Pneus Grandes</label>
-                                                </div>
-                                                <div class="radio">
-                                                    <input type="checkbox" name="optionals[]" value="big_tires">
-                                                    <label for="big_tires">Pneus Grandes</label>
-                                                </div>
-                                                <div class="radio">
-                                                    <input type="checkbox" name="optionals[]" value="big_tires">
-                                                    <label for="big_tires">Pneus Grandes</label>
-                                                </div>
-                                        </div>
-                                        <div class="opcionais2">
-                                            <div class="radio">
-                                                <input type="checkbox" name="optionals[]" value="big_tires">
-                                                <label for="big_tires">Pneus Grandes</label>
-                                            </div>
-                                            <div class="radio">
-                                                <input type="checkbox" name="optionals[]" value="big_tires">
-                                                <label for="big_tires">Pneus Grandes</label>
-                                            </div>
-                                            <div class="radio">
-                                                <input type="checkbox" name="optionals[]" value="big_tires">
-                                                <label for="big_tires">Pneus Grandes</label>
-                                            </div>
-                                            <div class="radio">
-                                                <input type="checkbox" name="optionals[]" value="big_tires">
-                                                <label for="big_tires">Pneus Grandes</label>
-                                            </div>
-                                        </div>
-                                        </div>
-                                        
-                                                
-                                        
-                                    </form>
-                                </form>
-                            </form>
-                        </form>
-                    </form>
-                </form>
+                                    <div class="container-title">
+                                        <label>Data da compra: <span class="required-field">*</label>
+                                        <input type="date" placeholder="Defina o preço">
+                                    </div>  
+                                    <div class="container-tipo">
+                                        <label>Tipo de cambio <span class="required-field">*</label>
+                                    </div>                      
             </form>
         </div>
     </div>
-
 </body>
 </html>
