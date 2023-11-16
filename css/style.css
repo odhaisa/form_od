@@ -174,9 +174,17 @@ margin-right: 14px;
     margin-top: -80px;
 }
 
+<<<<<<< HEAD
 .opcao h3 {
     font-size:14px;
     font-weight: 645;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
     margin-left: 20px;
 }
+=======
+.container-flex-title ::placeholder{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 10px;
+}
+
+>>>>>>> 5793105ee209accb3f474573cfb9bd4319fae8fd
